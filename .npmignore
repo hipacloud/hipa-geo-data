@@ -1,0 +1,5 @@
+data/
+script/
+yarn.*
+.git/
+node_modules/
