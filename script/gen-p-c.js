@@ -3,7 +3,7 @@ const fs = require('fs');
 let rawdata = fs.readFileSync('./data/province-city-district.json');
 let data = JSON.parse(rawdata);
 const newData = data.map(item => {
-  const children = item.r.map(child => {
+  const children = (item.r||[]).map(child => {
     return ({ c: child.c, n: child.n });
   });
   if (children.length > 0) {
