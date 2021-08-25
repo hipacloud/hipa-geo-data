@@ -3,3 +3,6 @@ script/
 yarn.*
 .git/
 node_modules/
+dist/unwind-data.min.json
+.idea
+yarn-error.log
