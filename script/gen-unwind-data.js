@@ -4,7 +4,7 @@ let rawdata = fs.readFileSync('./data/province-city-district.json');
 let data = JSON.parse(rawdata);
 
 function unwind(item, dest) {
-    dest.push({ value: item.value, label: item.label });
+    dest.push({ code: item.value, name: item.label });
     (item.children || []).forEach(child => unwind(child, dest));
 }
 
