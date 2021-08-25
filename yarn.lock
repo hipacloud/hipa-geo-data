@@ -7,6 +7,11 @@ bluebird@^3.5.0:
   resolved "https://registry.npm.taobao.org/bluebird/download/bluebird-3.7.2.tgz#9f229c15be272454ffa973ace0dbee79a1b0c36f"
   integrity sha1-nyKcFb4nJFT/qXOs4NvueaGww28=
 
+csv-stringify@^5.6.2:
+  version "5.6.2"
+  resolved "https://registry.nlark.com/csv-stringify/download/csv-stringify-5.6.2.tgz#e653783e2189c4c797fbb12abf7f4943c787caa9"
+  integrity sha1-5lN4PiGJxMeX+7Eqv39JQ8eHyqk=
+
 minify-json@^1.0.0:
   version "1.0.0"
   resolved "https://registry.nlark.com/minify-json/download/minify-json-1.0.0.tgz#b55b9fa1998d5623b8cdafcbdbe51042fb3e4c6c"
