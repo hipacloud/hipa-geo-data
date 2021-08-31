@@ -2,9 +2,25 @@ const zhComparator = new Intl.Collator("zh-CN");
 var fs = require('fs');
 
 function zhSort(data) {
+    if (data.length === 1) {
+        if (data[0]?.children) {
+            data[0].children = zhSort(data[0].children);
+            return data
+        }
+    }
     return data.sort((aItem, bItem) => {
-        if (aItem.label.includes("北京")) return -1;
-        if (bItem.label.includes("北京")) return 1;
+        if (aItem.label.includes("北京")) {
+            if (aItem.children) {
+                aItem.children = zhSort(aItem.children);
+            }
+            return -1;
+        }
+        if (bItem.label.includes("北京")) {
+            if (bItem.children) {
+                bItem.children = zhSort(bItem.children);
+            }
+            return 1;
+        }
         if (aItem.children) {
             aItem.children = zhSort(aItem.children);
         }
@@ -15,7 +31,7 @@ function zhSort(data) {
     });
 }
 
-['./data/province-city-district.json', './data/province.json'].forEach(path => {
+['./data/province-city-district.json'].forEach(path => {
     let rawdata = fs.readFileSync(path);
     let data = JSON.parse(rawdata);
     const newData = zhSort(data)
