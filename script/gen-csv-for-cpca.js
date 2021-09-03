@@ -3,7 +3,7 @@ var stringify = require('csv-stringify');
 
 let rawdata = fs.readFileSync('./data/unwind-data.json');
 let data = JSON.parse(rawdata);
-let formatted_data = data.map(item => {
+let formatted_data = data.filter(item => item['code'] !== "000000").map(item => {
     return {
         'adcode': item['code'],
         'name': item['name'],

@@ -9,12 +9,7 @@ function unwind(item, dest) {
 }
 
 let newData = [];
-data.forEach(item => {
-    if (item.value === "000000") {  // 原始数据中省包含其他，hipa-api不需要这个选项
-        return;
-    }
-    unwind(item, newData)
-});
+data.forEach(item => unwind(item, newData));
 
 try {
     const data = fs.writeFileSync('./data/unwind-data.json', JSON.stringify(newData), {flag: 'w'});
