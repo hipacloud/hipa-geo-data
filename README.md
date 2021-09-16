@@ -29,3 +29,11 @@ yarn gen-unwind, 根据“省份 -> 城市 -> 区县 联动列表” 生成 “�
 yarn gen-csv，根据“省市区平铺数据” 生成 csv，⚠️这个必须在gen-unwind后执行，这个csv是给[hipacloud/chinese_province_city_area_mapper]做数据源用的！
 
 yarn gen-min, 复制data下的文件到dist并压缩，npm publish 之前的需要执行
+
+
+Mobile 端注意事项：
+Mobile 的地址需要 pinyin_prefix 属性做索引，pinyin 数据来源：
+https://github.com/xiangyuecn/AreaCity-JsSpider-StatsGov/blob/master/src/%E9%87%87%E9%9B%86%E5%88%B0%E7%9A%84%E6%95%B0%E6%8D%AE/ok_data_level3.csv
+找不到的拼音需要自己查漏补缺
+
+故更新数据时 province-city-district-pinyin.json 应与 province-city-district.min.json 保持一致，并加上 pinyin_prefix 属性
