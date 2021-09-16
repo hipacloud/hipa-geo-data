@@ -16670,17 +16670,17 @@
   {
     "value": "820000",
     "label": "中国澳门",
-    "pinyin_prefix": "a"
+    "pinyin_prefix": "z"
   },
   {
     "value": "710000",
     "label": "中国台湾",
-    "pinyin_prefix": "t"
+    "pinyin_prefix": "z"
   },
   {
     "value": "810000",
     "label": "中国香港",
-    "pinyin_prefix": "x"
+    "pinyin_prefix": "z"
   },
   {
     "value": "000000",
