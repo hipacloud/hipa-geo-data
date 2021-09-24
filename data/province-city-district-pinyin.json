@@ -6755,30 +6755,13 @@
         "pinyin_prefix": "j"
       },
       {
-        "value": "429000",
-        "label": "省直辖县级行政区划",
-        "children": [
-          {
-            "value": "429005",
-            "label": "潜江市",
-            "pinyin_prefix": "q"
-          },
-          {
-            "value": "429021",
-            "label": "神农架林区",
-            "pinyin_prefix": "s"
-          },
-          {
-            "value": "429006",
-            "label": "天门市",
-            "pinyin_prefix": "t"
-          },
-          {
-            "value": "429004",
-            "label": "仙桃市",
-            "pinyin_prefix": "x"
-          }
-        ],
+        "value": "429005",
+        "label": "潜江市",
+        "pinyin_prefix": "q"
+      },
+      {
+        "value": "429021",
+        "label": "神农架林区",
         "pinyin_prefix": "s"
       },
       {
@@ -6849,6 +6832,11 @@
           }
         ],
         "pinyin_prefix": "s"
+      },
+      {
+        "value": "429006",
+        "label": "天门市",
+        "pinyin_prefix": "t"
       },
       {
         "value": "420100",
@@ -6957,6 +6945,11 @@
             "pinyin_prefix": "x"
           }
         ],
+        "pinyin_prefix": "x"
+      },
+      {
+        "value": "429004",
+        "label": "仙桃市",
         "pinyin_prefix": "x"
       },
       {
