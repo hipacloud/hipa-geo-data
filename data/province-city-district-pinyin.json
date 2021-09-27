@@ -3907,8 +3907,44 @@
     "label": "海南省",
     "children": [
       {
+        "value": "469025",
+        "label": "白沙黎族自治县",
+        "children": [],
+        "pinyin_prefix": "b"
+      },
+      {
+        "value": "469029",
+        "label": "保亭黎族苗族自治县",
+        "children": [],
+        "pinyin_prefix": "b"
+      },
+      {
+        "value": "469026",
+        "label": "昌江黎族自治县",
+        "children": [],
+        "pinyin_prefix": "c"
+      },
+      {
+        "value": "469023",
+        "label": "澄迈县",
+        "children": [],
+        "pinyin_prefix": "d"
+      },
+      {
         "value": "460400",
         "label": "儋州市",
+        "children": [],
+        "pinyin_prefix": "d"
+      },
+      {
+        "value": "469021",
+        "label": "定安县",
+        "children": [],
+        "pinyin_prefix": "d"
+      },
+      {
+        "value": "469007",
+        "label": "东方市",
         "children": [],
         "pinyin_prefix": "d"
       },
@@ -3940,9 +3976,50 @@
         "pinyin_prefix": "h"
       },
       {
+        "value": "469027",
+        "label": "乐东黎族自治县",
+        "children": [],
+        "pinyin_prefix": "l"
+      },
+      {
+        "value": "469024",
+        "label": "临高县",
+        "children": [],
+        "pinyin_prefix": "l"
+      },
+      {
+        "value": "460400",
+        "label": "陵水黎族自治县",
+        "children": [],
+        "pinyin_prefix": "l"
+      },
+      {
+        "value": "469002",
+        "label": "琼海市",
+        "children": [],
+        "pinyin_prefix": "q"
+      },
+      {
+        "value": "469030",
+        "label": "琼中黎族苗族自治县",
+        "children": [],
+        "pinyin_prefix": "q"
+      },
+      {
         "value": "460300",
         "label": "三沙市",
-        "children": [],
+        "children": [
+          {
+            "value": "460302",
+            "label": "南沙区",
+            "pinyin_prefix": "n"
+          },
+          {
+            "value": "460301",
+            "label": "西沙区",
+            "pinyin_prefix": "x"
+          }
+        ],
         "pinyin_prefix": "s"
       },
       {
@@ -3971,6 +4048,30 @@
           }
         ],
         "pinyin_prefix": "s"
+      },
+      {
+        "value": "469022",
+        "label": "屯昌县",
+        "children": [],
+        "pinyin_prefix": "t"
+      },
+      {
+        "value": "469006",
+        "label": "万宁市",
+        "children": [],
+        "pinyin_prefix": "w"
+      },
+      {
+        "value": "469005",
+        "label": "文昌市",
+        "children": [],
+        "pinyin_prefix": "w"
+      },
+      {
+        "value": "469001",
+        "label": "五指山市",
+        "children": [],
+        "pinyin_prefix": "w"
       }
     ],
     "pinyin_prefix": "h"
@@ -4983,6 +5084,11 @@
         "pinyin_prefix": "h"
       },
       {
+        "value": "419001",
+        "label": "济源市",
+        "pinyin_prefix": "j"
+      },
+      {
         "value": "410800",
         "label": "焦作市",
         "children": [
@@ -5874,6 +5980,11 @@
             "value": "232701",
             "label": "漠河市",
             "pinyin_prefix": "m"
+          },
+          {
+            "value": "232718",
+            "label": "加格达奇区",
+            "pinyin_prefix": "j"
           },
           {
             "value": "232722",
@@ -6911,6 +7022,11 @@
         "pinyin_prefix": "w"
       },
       {
+        "value": "429004",
+        "label": "仙桃市",
+        "pinyin_prefix": "x"
+      },
+      {
         "value": "421200",
         "label": "咸宁市",
         "children": [
@@ -6945,11 +7061,6 @@
             "pinyin_prefix": "x"
           }
         ],
-        "pinyin_prefix": "x"
-      },
-      {
-        "value": "429004",
-        "label": "仙桃市",
         "pinyin_prefix": "x"
       },
       {
@@ -8458,6 +8569,11 @@
             "value": "320583",
             "label": "昆山市",
             "pinyin_prefix": "k"
+          },
+          {
+            "value": "320571",
+            "label": "苏州工业园区",
+            "pinyin_prefix": "s"
           },
           {
             "value": "320585",
@@ -10886,6 +11002,11 @@
             "value": "632801",
             "label": "格尔木市",
             "pinyin_prefix": "g"
+          },
+          {
+            "value": "632825",
+            "label": "海西蒙古族藏族自治州直辖",
+            "pinyin_prefix": "h"
           },
           {
             "value": "632803",
@@ -15133,6 +15254,11 @@
         "pinyin_prefix": "k"
       },
       {
+        "value": "659008",
+        "label": "可克达拉市",
+        "pinyin_prefix": "k"
+      },
+      {
         "value": "650200",
         "label": "克拉玛依市",
         "children": [
@@ -15187,6 +15313,21 @@
         "pinyin_prefix": "k"
       },
       {
+        "value": "659009",
+        "label": "昆玉市",
+        "pinyin_prefix": "k"
+      },
+      {
+        "value": "659001",
+        "label": "石河子市",
+        "pinyin_prefix": "s"
+      },
+      {
+        "value": "659007",
+        "label": "双河市",
+        "pinyin_prefix": "s"
+      },
+      {
         "value": "654200",
         "label": "塔城地区",
         "children": [
@@ -15226,6 +15367,16 @@
             "pinyin_prefix": "y"
           }
         ],
+        "pinyin_prefix": "t"
+      },
+      {
+        "value": "659006",
+        "label": "铁门关市",
+        "pinyin_prefix": "t"
+      },
+      {
+        "value": "659003",
+        "label": "图木舒克市",
         "pinyin_prefix": "t"
       },
       {
@@ -15295,6 +15446,11 @@
             "pinyin_prefix": "x"
           }
         ],
+        "pinyin_prefix": "w"
+      },
+      {
+        "value": "659004",
+        "label": "五家渠市",
         "pinyin_prefix": "w"
       },
       {
