@@ -5,13 +5,14 @@
   },
   "name": "hipa-geo-data",
   "description": "源自 https://github.com/uiwjs/province-city-china, 按照拼音排序地理数据",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "gen-p-c": "node script/gen-p-c",
     "gen-unwind": "node script/gen-unwind-data",
     "gen-csv": "node script/gen-csv-for-cpca",
     "gen-min": "node script/gen-min-json && minify-json ./dist",
+    "gen-code-label": "node script/gen-code-label",
     "zhsort": "node script/zhsort"
   },
   "repository": {
