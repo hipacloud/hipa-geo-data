@@ -75,3 +75,7 @@
 
 ### 1.0.12
 添加code-to-label.json
+
+
+### 1.0.13
+修改code-to-label.json中的部分省名称
