@@ -14955,6 +14955,11 @@
         "pinyin_prefix": "a"
       },
       {
+        "value": "659002",
+        "label": "阿拉尔市",
+        "pinyin_prefix": "a"
+      },
+      {
         "value": "654300",
         "label": "阿勒泰地区",
         "children": [
@@ -15046,6 +15051,11 @@
             "pinyin_prefix": "y"
           }
         ],
+        "pinyin_prefix": "b"
+      },
+      {
+        "value": "659005",
+        "label": "北屯市",
         "pinyin_prefix": "b"
       },
       {
@@ -15184,6 +15194,11 @@
             "pinyin_prefix": "y"
           }
         ],
+        "pinyin_prefix": "h"
+      },
+      {
+        "value": "659010",
+        "label": "胡杨河市",
         "pinyin_prefix": "h"
       },
       {
