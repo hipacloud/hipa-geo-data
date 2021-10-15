@@ -11337,6 +11337,11 @@
             "pinyin_prefix": "g"
           },
           {
+            "value": "370171",
+            "label": "高新区",
+            "pinyin_prefix": "g"
+          },
+          {
             "value": "370104",
             "label": "槐荫区",
             "pinyin_prefix": "h"
@@ -11398,6 +11403,11 @@
         "value": "370800",
         "label": "济宁市",
         "children": [
+          {
+            "value": "370871",
+            "label": "高新区",
+            "pinyin_prefix": "g"
+          },
           {
             "value": "370829",
             "label": "嘉祥县",
@@ -11516,6 +11526,11 @@
             "value": "371312",
             "label": "河东区",
             "pinyin_prefix": "h"
+          },
+          {
+            "value": "371371",
+            "label": "高新区",
+            "pinyin_prefix": "g"
           },
           {
             "value": "371327",
